@@ -292,6 +292,7 @@ function Contacts() {
                                 {contactsData.email}
                             </p>
                         </a>
+                        {contactsData.phone ?
                         <a
                             href={`tel:${contactsData.phone}`}
                             className='personal-details'
@@ -302,7 +303,7 @@ function Contacts() {
                             <p style={{ color: theme.tertiary }}>
                                 {contactsData.phone}
                             </p>
-                        </a>
+                        </a>: null}
                         <div className='personal-details'>
                             <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
