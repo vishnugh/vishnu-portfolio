@@ -1,4 +1,5 @@
  export const skillsData = [
+    'Java',
     'Python',
     'Numpy',
     'Pytorch',

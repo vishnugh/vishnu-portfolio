@@ -57,8 +57,8 @@ export const projectsData = [
         projectName: 'Casual iOS Games',
         projectDesc: 'Few of the casual games launched in Apple Appstore',
         tags: ['Unity3D', 'GameDev'],
-        code: 'https://apps.apple.com/us/developer/vishnu-ghosh/id1376530593',
-        demo: 'https://apps.apple.com/us/developer/vishnu-ghosh/id1376530593',
+        code: '',
+        demo: '',
         image: games
     },
     {
